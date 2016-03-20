@@ -1,5 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body .container-fluid{
+	padding:0;
+}
+
 header .row{
 	background: #fcfff4; /* Old browsers */
 background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6-15 */
@@ -18,4 +27,23 @@ header .row .logo{
 header .row .botones{
 	margin-top: 20px;
 	margin-bottom: 10px;
+}
+
+.main .jumbotron{
+	padding-bottom: 20px;
+	height: 400px;
+}
+
+.main .container .glyphicon.glyphicon-hand-down{
+	font-size: 40px;
+	padding-top: 15px;
+	animation-name:mano;
+	animation-duration:1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes mano{
+	50%{
+		padding-top: 0px;
+	}
 }
