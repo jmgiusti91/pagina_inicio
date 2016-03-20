@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+header .row{
+	background: #fcfff4; /* Old browsers */
+background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+copy
+}
+
+header .row .logo{
+	margin-left: 150px;
+	font-family: 'Open Sans', sans-serif;
+	color:#666;
+}
+
+header .row .botones{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
